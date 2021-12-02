@@ -146,9 +146,9 @@ class SimpleInvoice(SimpleDocTemplate):
             # Merge Table
             table_data = [
                 [
-                    Paragraph('Service Provider', self._defined_styles.get('Heading1')), '',
+                    Paragraph('Kashtronica', self._defined_styles.get('Heading1')), '',
                     '',
-                    Paragraph('Client', self._defined_styles.get('Heading1')), ''
+                    Paragraph('Customer', self._defined_styles.get('Heading1')), ''
                 ]
             ]
             table_style = [
